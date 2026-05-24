@@ -1,11 +1,13 @@
-// Cursor following effect
+
 const cursor = document.querySelector('.cursor');
 document.addEventListener('mousemove', (e) => {
+    const music = document.getElementById("bg-music");
     cursor.style.left = e.clientX + 'px';
     cursor.style.top = e.clientY + 'px';
 });
 
-// Typing effect for greeting
+const music = document.getElementById("bg-music");
+
 const greetingText = "Hey You Know What! You're the most adorable human i ever met! 💖";
 const greetingElement = document.querySelector('.greeting');
 let charIndex = 0;
