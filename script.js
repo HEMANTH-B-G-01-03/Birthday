@@ -8,7 +8,7 @@ document.addEventListener('mousemove', (e) => {
 
 const music = document.getElementById("bg-music");
 
-const greetingText = "Hey You Know What! You're the most adorable human i ever met! 💖";
+const greetingText = "Among all the people I've met, you hold a place in my heart that no one else ever could. 💖";
 const greetingElement = document.querySelector('.greeting');
 let charIndex = 0;
 
